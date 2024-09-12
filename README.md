@@ -1,6 +1,5 @@
 # nodewithauth
-> **Note**: This repo is no longer officially maintained as of Jan, 2023.
-> Feel free to use it, fork it and patch it for your own needs.
+> **Note**: This repo just for demonstration
 
 ## The node.js with express.js login and registration API with JWS implemented
 

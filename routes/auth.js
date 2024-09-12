@@ -29,6 +29,10 @@ router.post('/login', async (req, res) => {
         if (!passwordMatch) {
             return res.status(401).json({ error: 'Authentication failed' });
         }
+        /**
+         * SECRET KEY should be stored in sperate file 
+         * here hardcoded just for demonstration 
+         */
         const token = jwt.sign({ userId: user._id }, 'your-secret-key', {
         expiresIn: '1h',
         });
